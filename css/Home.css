@@ -1,0 +1,198 @@
+
+@import url(./General.css);
+body
+{
+    background-color: --bg-header-t;
+}
+
+
+.Home-Header
+{
+    align-content: center;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/387/415/687/aesthetic-neon-wallpaper-preview.jpg);
+    height: 500px;
+    width: 100%;
+    h1
+    {
+        color: var(--txt-header-t);
+        text-align: center;
+    }
+    p
+    {
+        color: var(--txt-header-p);
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2em;
+    }
+}
+.Sub-Header
+{
+    max-width: 70%;
+    h1
+    {
+        color: var(--txt-header-sub-t);
+        text-align: center;
+    }
+    p
+    {
+        color: var(--txt-header-sub-p);
+        text-align: center;
+        text-decoration: dashed;
+    }
+}
+.cartero
+{
+    padding: 15px;
+    img
+    {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10%;
+    }
+    .card
+    {
+        align-items: center;
+        align-content: center;
+        max-width: 20em;
+        flex-direction: row;
+        margin: 10px;
+        background-color: var(--bg-header-t);
+        border: 1px solid;
+    }
+    .titulo, .texto
+    {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .titulo
+    {
+        color: var(--card-opciones-btn-p);
+        font-weight: bold;
+    }
+    .texto
+    {
+        color: var(--txt-header-sub-p);
+        font-style: oblique;
+    }
+}
+.tercer-header
+{
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+    max-width: 80%;
+    .central
+    {
+        background-color: var(--bg-header-t);
+        padding: 4% ;
+    }
+    h1 
+    {
+        color: var(--txt-header-sub-t);
+        font-size: 3em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p
+    {
+        color: var(--txt-header-sub-t);
+        font-size: 1.2em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .prent-img
+    {
+        align-items: end;
+        align-self: flex-end;
+        align-content: end;
+    }
+    img
+    {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .opciones
+    {
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    .card
+    {
+        height: 25em;
+        margin: 5px;
+        background-color: var(--bg-header-t);
+        border: 1px soli var(--card-opciones-btn);
+        width: 20em;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        align-self: center;
+        h1 
+        {
+            color: var(--txt-header-sub-t);
+            font-size: 2em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p
+        {
+            color: var(--txt-header-sub-t);
+            font-size: 0.9em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        img
+        {
+            margin-top: 10px;
+            max-height: 50%!important;
+            width: 100%!important;
+        }
+        a
+        {
+            align-items: center;
+            align-content: center;
+            display: flex;
+            text-align: center;
+            align-self: center;
+            background-color: var(--card-opciones-btn);
+            color: var(--card-opciones-btn-p);
+            p
+            {
+                color: var(--txt-header-sub-t);
+                font-size: 0.8em;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+    }
+    }
+}
+.Equipo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    img
+    {
+        height: 100%;
+        width: 100%;
+        border-radius: 5%;
+    }
+    h1, p
+    {
+        text-align: center;
+        color: var(--txt-header-sub-t);
+    }
+    h1
+    {
+        font-weight: bold;
+        font-size: 2em;
+    }
+    p
+    {
+        font-size: 1.2em;
+        color: var(--txt-header-sub-p);
+    }
+}
+

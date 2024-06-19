@@ -1,0 +1,66 @@
+@import url(./General.css);
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.hoy {
+    background-color: lightblue;
+}
+.calendarios
+{
+    width: 80%;
+    padding: 4%;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    .cal-col
+    {
+        border: 1px solid black;
+    }
+
+    .cal-dia
+    {
+        border: 1px solid black;
+    }
+}
+.cal-t
+{
+    background-color: var(--bg-cal);
+}
+.cal-semana
+{
+    border: 2px solid var(--txt-header-sub-t);
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    max-width: 4em;
+    color: var(--cal-semana);
+    background-color: var(--bg-cal-semana);
+
+}
+.activo
+{
+    color: val(--cal-dia-activo);
+    background-color: val(--bg-cal-dia-activo);
+}
+.pasado
+{
+    color: val(--cal-dia-pasado);
+    background-color: val(--bg-cal-dia-pasado);
+}
+.noDisponible
+{
+    color: val(--cal-dia-ocupado);
+    background-color: val(--bg-cal-dia-ocupado);
+}

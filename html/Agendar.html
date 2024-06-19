@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+    <head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="icon" href="/Imagenes/CuteCore.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="/css/General.css">
+        <link rel="stylesheet" href="/css/Registros.css">
+        <link rel="stylesheet" href="/css/Citas.css">
+
+        <title>Agendar cita</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!-- Nav Menu -->
+        <header>
+            <div class="px-3 py-2 navHeader text-white">
+                <div class="container">
+                    <div
+                        class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="./Inicio.html"
+                            class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                            <svg class="bi me-2" width="40" height="32"
+                                role="img" aria-label="Bootstrap">
+                                <img
+                                    src="https://i0.wp.com/assets.stickpng.com/images/61fae2d395e6ca00047b4f12.png?ssl=1"
+                                    alt class="bi d-block mx-auto mb-1">
+                                <p>Mejorando la Futura Salud Mental </p>
+                            </svg>
+                        </a>
+
+                        <ul
+                            class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                            <li>
+                                <a href="./Inicio.html" class="nav-link text-secondary">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Inicio</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-secondary">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Ayuda</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./Agendar.html"
+                                    class="nav-link text-white">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Agendar</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./Citas.html"
+                                    class="nav-link text-white">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Mis citas</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./Profesionales.html"
+                                    class="nav-link text-white">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Profesionales</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./Perfil.html"
+                                    class="nav-link text-white">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Mi Perfil</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- Presentación -->
+        <!-- Formulario para nuevos-->
+        <div class="form-p container  container-fluid">
+            <div class="form-header container container-fluid">
+                <!-- Titulo de form -->
+                <div>
+                    <h1>Agendar la cita</h1>
+                    <p>Confirmar datos básicos<br>Para poder agendar primero debemos entender porque quiere la cita</p>
+                </div>
+                <!-- Logotipo de la empresa -->
+                <img
+                    src="https://i.pinimg.com/564x/ae/a3/13/aea313bb74fcf809a2d049b4b0c722d5.jpg"
+                    alt>
+            </div>
+            <div class="form-in container container-fluid">
+
+
+                <div id="seccion1" class="form-section">
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Profesional</span>
+                        <input type="text" aria-label="Nombre" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Fecha deseada</span>
+                        <input type="date" class="form-control" id="fechaNacimiento">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Contacto</span>
+                        <input type="number" class="form-control" id="telefono" placeholder="Numero Telefonico">
+                    </div>
+                    <div class="mb-3">
+                        <span for="motivosCita" class="form-label">Motivos por el que desea la cita</span>
+                        <textarea class="form-control" id="motivosCita" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <span for="motivosCita" class="form-label">Que espera lograr con esto</span>
+                        <textarea class="form-control" id="esperarCita" rows="3"></textarea>
+                    </div>
+
+                </div>
+
+
+
+                <div id="seccion2" class="form-section hide">
+                    <!-- Direcciones (SEgunda pagina del forms) -->
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Estado</span>
+                        <input type="text" class="form-control" id="estado" placeholder="Yucatan">
+                        <span class="input-group-text">Ciudad</span>
+                        <input type="text" class="form-control" id="Ciudad" placeholder="Merida">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Colonia</span>
+                        <input type="text" class="form-control" id="colonia" placeholder="Colonia residencial">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Direccion</span>
+                        <input type="text" class="form-control" id="calles" placeholder="Dirección (calles, intersecciones)">
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div id="seccion3" class="form-section hide">
+                    <!-- Tutor (Se habre con una condicional si selecciona modo tutor) -->
+                    <div class="input-group">
+                        <span class="input-group-text">Nombre</span>
+                        <input type="text" class="form-control" id="nombreMenor" placeholder="Nombre del menor">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <input type="text" class="form-control" id="apellidoM-Menor" placeholder="Apellido Paterno">
+                        <input type="text" class="form-control" id="apellidoP-Menor" placeholder="Apellido Materno">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Fecha de nacmiento</span>
+                        <input type="date" class="form-control" id="fechaNacimientoMenor">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Curp</span>
+                        <input type="file" class="form-control" id="curpTutor">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Situación</span>
+                        <input type="text" class="form-control" id="situacion" placeholder="El motivo por el que necesita ayuda">
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+                <div id="seccion4" class="form-section hide">
+                    <!-- Documentos (Tercera parte del forms) -->
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Curp</span>
+                        <input type="file" class="form-control" id="curp">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Ine</span>
+                        <input type="file" class="form-control" id="ine">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Foto</span>
+                        <input type="file" class="form-control" id="foto">
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+                <div id="seccion5" class="form-section hide">
+                    <!-- Para prfesional (Condiconal se habre si el usuario escoge profesional) -->
+                    <!-- Profesional -->
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Area de estudio</span>
+                        <select class="form-select" id="areaEstudio">
+                            <option value="1">Psicología Clínica</option>
+                            <option value="2">Psicología Educativa</option>
+                            <option value="3">Psicología Social</option>
+                            <option value="4">Psicología Organizacional</option>
+                            <option value="5">Psicología del Desarrollo</option>
+                            <option value="6">Psicología de la Salud</option>
+                            <option value="7">Neuropsicología</option>
+                            <option value="8">Psicología Forense</option>
+                            <option value="9">Psicología Deportiva</option>
+                            <option value="10">Psicología Experimental</option>
+                            <option value="11">Psicología Comunitaria</option>
+                            <option value="12">Psicología de la Rehabilitación</option>
+                            <option value="13">Psicología de Emergencias</option>
+                            <option value="14">Psicología de la Adicción</option>
+                            <option value="15">Psicología Gerontológica</option>
+                        </select>
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Categoria</span>
+                        <select class="form-select" id="categorias">
+                            <option value="1">Terapia Cognitiva</option>
+                            <option value="2">Terapia Conductual</option>
+                            <option value="3">Terapia Humanista</option>
+                            <option value="4">Terapia Psicoanalítica</option>
+                            <option value="5">Terapia Sistémica</option>
+                            <option value="6">Terapia Gestalt</option>
+                            <option value="7">Terapia de Aceptación y Compromiso</option>
+                            <option value="8">Terapia Dialéctica Conductual</option>
+                            <option value="9">Terapia de Juego</option>
+                            <option value="10">Terapia Narrativa</option>
+                            <option value="11">Psicoterapia Integradora</option>
+                            <option value="12">Terapia Breve Centrada en Soluciones</option>
+                            <option value="13">Terapia Familiar</option>
+                            <option value="14">Terapia de Arte</option>
+                            <option value="15">Terapia de Grupo</option>
+                        </select>
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Especialidad</span>
+                        <select class="form-select" id="especializacion">
+                            <option value="1">Psicoterapia para niños</option>
+                            <option value="2">Psicoterapia para adolescentes</option>
+                            <option value="3">Psicoterapia para adultos</option>
+                            <option value="4">Psicoterapia para parejas</option>
+                            <option value="5">Psicoterapia para familias</option>
+                            <option value="6">Psicoterapia para trastornos de ansiedad</option>
+                            <option value="7">Psicoterapia para trastornos del estado de ánimo</option>
+                            <option value="8">Psicoterapia para trastornos alimentarios</option>
+                            <option value="9">Psicoterapia para trastornos de la personalidad</option>
+                            <option value="10">Psicoterapia para trastornos del espectro autista</option>
+                            <option value="11">Psicoterapia para trastorno por estrés postraumático (PTSD)</option>
+                            <option value="12">Psicoterapia para trastornos de la conducta</option>
+                            <option value="13">Psicoterapia para trastornos de la identidad sexual</option>
+                            <option value="14">Psicoterapia para trastornos de la imagen corporal</option>
+                            <option value="15">Psicoterapia para trastornos del sueño</option>
+                        </select>
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Titulo</span>
+                        <input type="file" class="form-control" id="titulo">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Certificado</span>
+                        <input type="file" class="form-control" id="certificado">
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="mb-2 input-group">
+                    
+                    <button class="boton-siguiente">Siguiente</button>
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="form-footer container container-fluid">
+                <h1>Ya tienes una cuenta?</h1>
+                <p>Si ya tienes una cuenta registrada, puedes llegar a iniciar seción aquí abajo</p>
+                <a href="./Iniciar.html"><button class="boton-Inciar">Iniciar Sesion</button></a>
+                
+            </div>
+        </div>
+
+
+
+    <!-- Pie de pagina -->
+    <footer>
+        <div class="row container-fluid integrante justify-content-center align-items-center"><h1>Mejorando el futuro de las personas</h1></div>
+        <div class="row container-fluid integrante justify-content-center align-items-center">
+            <div class="col-md-4 mb-4">
+                <h2>Titulo 2</h2>
+                <ul>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h2>Titulo 2</h2>
+                <ul>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h2>Titulo 2</h2>
+                <ul>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+        <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous">
+    </script>
+    <script>
+    var nextButton = document.querySelector('.boton-siguiente');
+    var previousButton = document.querySelector('.boton-anterior');
+
+    nextButton.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        // Get form sections
+        var sections = Array.from(document.querySelectorAll('.form-section'));
+
+        // Find the current section
+        var currentSection = sections.find(function (section) {
+            return !section.classList.contains('hide');
+        });
+
+        // Hide the current section
+        currentSection.classList.add('hide');
+
+        // Show the next section
+        var currentIndex = sections.indexOf(currentSection);
+        var nextSection = sections[currentIndex + 1];
+        if (nextSection) {
+            nextSection.classList.remove('hide');
+        }
+    });
+
+    previousButton.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        // Get form sections
+        var sections = Array.from(document.querySelectorAll('.form-section'));
+
+        // Find the current section
+        var currentSection = sections.find(function (section) {
+            return !section.classList.contains('hide');
+        });
+
+        // Hide the current section
+        currentSection.classList.add('hide');
+
+        // Show the previous section
+        var currentIndex = sections.indexOf(currentSection);
+        var previousSection = sections[currentIndex - 1];
+        if (previousSection) {
+            previousSection.classList.remove('hide');
+        }
+    });
+
+
+    </script>
+    </body>
+
+</html>

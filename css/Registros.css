@@ -1,0 +1,102 @@
+@import url(./General.css);
+:root
+{
+    ---bg-form-input: #ffffff;
+}
+.form-p
+{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    padding: 1em;
+    background-color: antiquewhite;
+    max-width: 30em!important;
+    margin-bottom: 4em;
+
+    button
+    {
+        color: var(--txt-header-sub-t);
+        background-color: var(--bg-header-t);
+        padding: 5px;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        flex: content;
+        border-radius: 4%;
+        -webkit-border-radius: 4%;
+        -moz-border-radius: 4%;
+        -ms-border-radius: 4%;
+        -o-border-radius: 4%;
+}
+    .form-footer, .form-header, .form-in
+    {
+        
+        justify-content: center!important;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        max-width: 25em;
+        width: 90%;
+        p
+        {
+            color: var(--txt-header-sub-p);
+        }
+    }
+    .form-header
+    {
+        display: flex;
+        
+        h1
+        {
+            color: var(--txt-header-sub-t);
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.8em;
+        }
+        img 
+        {
+            margin-left: 1em;
+            height: 10em;
+            width: 10em;
+            align-self: center;
+            border-radius: 15%;
+        }
+    }
+    .form-in
+    {
+        margin-top: 1em;
+        input 
+        {
+            background-color: var(---bg-form-input);
+        }
+        .btn-number
+        {
+            max-width: em!important;
+        }
+        span
+        {
+            
+        }
+    }
+    .form-footer
+    {
+        margin-top: 1em;
+        h1
+        {
+            font-size: 1.5em;
+            color: var(--txt-header-sub-t);
+        }
+        p {
+            font-size: 1em;
+        }
+        a
+        {
+            color: val(--card-opciones-t);
+        }
+    }
+}
+.hide {
+    display: none;
+}

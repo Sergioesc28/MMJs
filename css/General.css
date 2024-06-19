@@ -1,0 +1,84 @@
+:root
+{
+    --txt-header-t: white;
+    --bg-header-t: #F2EAE4;
+    --txt-header-p: white;
+    --txt-header-sub-t: #400101;
+    --txt-header-sub-p: #A62626;
+    --card-opciones-btn: #D9A796;
+    --card-opciones-btn-p: #400101;
+    --bg-nav: #e4b889;
+    --btn-hover: #000000;
+
+    /* Colores para el calendario*/
+    --cal-semana: #5600f6;
+    --bg-cal-semana: #69b7f2;
+    --bg-cal: #577ab2;
+    --bg-cal-dia-activo: #434343;
+    --bg-cal-dia-ocupado: #fff;
+    --bg-cal-dia-pasado: #fff;
+    --cal-dia-activo: #434343;
+    --cal-dia-ocupado: #fff;
+    --cal-dia-pasado: #57a5dd;
+}
+
+.navHeader
+{
+    background-color: var(--bg-nav);
+    height: 5em;
+    max-height: 6em;
+    overflow: hidden;
+    p
+    {
+        color: var(--btn-hover);
+        font-weight: bold;
+        font-size: 1em;
+    }
+    img
+    {
+        margin-top: 0.2em;
+        height: 1.5em;
+        width: 1.5em;
+    }
+    li
+    {
+        margin-right: 0;
+        align-content: center;
+        padding: 3px;
+        cursor: pointer;
+        max-height: 4.5em;
+    }
+    li::hover
+    {
+        background-color: var(--btn-hover);
+        transform-style: var(--bg-header-t);
+    }
+}
+
+footer
+{
+    padding: 4%;
+    background-color: var(--txt-header-sub-t);
+    color: var(--txt-header-t);
+    h1
+    {
+        text-align: center;
+        font-family: cursive;
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+    h2
+    {
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 0.8em;
+    }
+    li
+    {
+        font-size: 1em;
+        list-style: none;
+        align-content: last baseline;
+        margin-left: 8em;
+    }
+}
+

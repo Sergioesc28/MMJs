@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="/css/General.css">
+    <link rel="stylesheet" href="/css/Citas.css">
+    <title>Mis citas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Nav Menu -->
+    <header>
+        <div class="px-3 py-2 navHeader text-white">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="./Inicio.html"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                            <img src="https://i0.wp.com/assets.stickpng.com/images/61fae2d395e6ca00047b4f12.png?ssl=1"
+                                alt="" class="bi d-block mx-auto mb-1">
+                            <p>Mejorando la Futura Salud Mental </p>
+                        </svg>
+                    </a>
+    
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                        <li>
+                            <a href="#" class="nav-link text-secondary">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" srcset=""
+                                    class="bi d-block mx-auto mb-1">
+    
+                                <p>Inicio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-secondary">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" srcset=""
+                                    class="bi d-block mx-auto mb-1">
+    
+                                <p>Ayuda</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Agendar.html" class="nav-link text-white">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" srcset=""
+                                    class="bi d-block mx-auto mb-1">
+    
+                                <p>Agendar</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Citas.html" class="nav-link text-white">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" srcset=""
+                                    class="bi d-block mx-auto mb-1">
+    
+                                <p>Mis citas</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Profesionales.html" class="nav-link text-white">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" srcset=""
+                                    class="bi d-block mx-auto mb-1">
+    
+                                <p>Profesionales</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Perfil.html" class="nav-link text-white">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="" srcset=""
+                                    class="bi d-block mx-auto mb-1">
+    
+                                <p>Mi Perfil</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </header>
+    <div class="header-citas">
+        <h1>Bienvenido a su historial de citas</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni, ex, assumenda tenetur laboriosam tempore tempora voluptas aliquid, architecto numquam quia possimus vel voluptatum. Obcaecati maiores blanditiis nostrum adipisci rem.</p>
+    </div>
+    <div class="calendarios">
+        <div class="row container container-fluid">
+            <div class="col-md-8 container container-fluid">
+                <h1>Calendario general</h1>
+                <table class="cal-t" id="calendar-semana">
+                    <thead>
+                        <tr class="cal-col">
+                            <th class="cal-semana">Lunes</th>
+                            <th class="cal-semana">Martes</th>
+                            <th class="cal-semana">Miercoles</th>
+                            <th class="cal-semana">Jueves</th>
+                            <th class="cal-semana">Viernes</th>
+                            <th class="cal-semana">Sabado</th>
+                            <th class="cal-semana">Domingo</th>
+                        </tr>
+                    </thead>
+                    <tbody id="calendar-dias">
+                        <td class="cal-dia activo">
+                            <p>1</p>
+                            <ul>
+                                <li>Depresion</li>
+                                <li>Terapias</li>
+                            </ul>
+                        </td>
+                        <td class="cal-dia pasado">2</td>
+                        <td class="cal-dia noDisponible">3</td>
+                        <td class="cal-dia activo">4</td>
+                        <td class="cal-dia noDisponible">5</td>
+                        <td class="cal-dia activo">6</td>
+                        <td class="cal-dia">7</td>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4 container container-fluid">
+                <h2>Citas más proximas</h2>
+                <ul>
+                    <li>Cita</li>
+                    <li>Cita</li>
+                    <li>Cita</li>
+                    <li>Cita</li>
+                    <li>Cita</li>
+                    <li>Cita</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de pagina -->
+    <footer>
+        <div class="row container-fluid integrante justify-content-center align-items-center"><h1>Mejorando el futuro de las personas</h1></div>
+        <div class="row container-fluid integrante justify-content-center align-items-center">
+            <div class="col-md-4 mb-4">
+                <h2>Titulo 2</h2>
+                <ul>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h2>Titulo 2</h2>
+                <ul>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h2>Titulo 2</h2>
+                <ul>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+
+    </script>
+    <script src="/js/citas.js"></script>
+    <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

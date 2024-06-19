@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+    <head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="icon" href="https://i.pinimg.com/564x/bd/7c/1e/bd7c1e84e8e45b743dfed0263478e42e.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="/css/General.css">
+        <link rel="stylesheet" href="/css/Registros.css">
+        <title>Iniciar sesión</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!-- Nav Menu -->
+        <header>
+            <div class="px-3 py-2 navHeader text-white">
+                <div class="container">
+                    <div
+                        class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="./Inicio.html"
+                            class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                            <svg class="bi me-2" width="40" height="32"
+                                role="img" aria-label="Bootstrap">
+                                <img
+                                    src="https://i0.wp.com/assets.stickpng.com/images/61fae2d395e6ca00047b4f12.png?ssl=1"
+                                    alt class="bi d-block mx-auto mb-1">
+                                <p>Mejorando la Futura Salud Mental </p>
+                            </svg>
+                        </a>
+
+                        <ul
+                            class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                            <li>
+                                <a href="./Inicio.html" class="nav-link text-secondary">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Inicio</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link text-secondary">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Ayuda</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./Agendar.html"
+                                    class="nav-link text-white">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Agendar</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./Citas.html"
+                                    class="nav-link text-white">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Mis citas</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./Profesionales.html"
+                                    class="nav-link text-white">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Profesionales</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./Perfil.html"
+                                    class="nav-link text-white">
+                                    <img
+                                        src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                        alt srcset
+                                        class="bi d-block mx-auto mb-1">
+
+                                    <p>Mi Perfil</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- Presentación -->
+        <!-- Formulario para nuevos-->
+        <div class="form-p container  container-fluid">
+            <div class="form-header container container-fluid">
+                <!-- Titulo de form -->
+                <div>
+                    <h1>Registra tu cuenta</h1>
+                    <p>Datos basicos <br>Dado que esta es tu primera vez, debes
+                        rellenar todos los datos correspodientes</p>
+                </div>
+                <!-- Logotipo de la empresa -->
+                <img
+                    src="https://i.pinimg.com/564x/ae/a3/13/aea313bb74fcf809a2d049b4b0c722d5.jpg"
+                    alt>
+            </div>
+            <div class="form-in container container-fluid">
+
+
+                <div id="seccion1" class="form-section">
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Usuario</span>
+                        <input type="text" aria-label="Nombre" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text"># Mobil</span>
+                        <select class=" input-group-text btn-number" id="RegionTelefono">
+                            <option selected>+</option>
+                            <option value="Mexico">🌮+52</option>
+                            <option value="Argentina">🌮+54</option>
+                            <option value="Perú">🌮+51</option>
+                        </select>
+                        <input type="number" class="form-control" id="telefono" placeholder="Numero Telefonico">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Correo</span>
+                        <input type="email" class="form-control" id="correo" placeholder="usuario@gmail.com">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Contraseña</span>
+                        <input type="password" class="form-control" id="contraseña" placeholder="Minimo 8 caracteres">
+                    </div>
+                </div>
+
+
+
+                <div id="seccion2" class="form-section hide">
+                    <!-- Direcciones (SEgunda pagina del forms) -->
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Registrarse con google</span>
+                        <input type="email" class="form-control" id="estado" placeholder="correo">
+                    </div>
+                    <div class="mb-2 input-group">
+                        <span class="input-group-text">Contraseña</span>
+                        <input type="text" class="form-control" id="colonia" placeholder="Colonia residencial">
+                    </div>
+                    <button class="boton-anterior">Atras</button>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="mb-2 input-group">
+                    <button class="boton-siguiente">Siguiente</button>
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="form-footer container container-fluid">
+                <h1>Registrarse en la pagina</h1>
+                <p>Si usted es nuevo, puedes registrarte aquí mismo</p>
+                <a href="./Registro.html"><button class="boton-Inciar">Crear cuenta</button></a>
+                
+            </div>
+        </div>
+    <!-- Pie de pagina -->
+    <footer>
+        <div class="row container-fluid integrante justify-content-center align-items-center"><h1>Mejorando el futuro de las personas</h1></div>
+        <div class="row container-fluid integrante justify-content-center align-items-center">
+            <div class="col-md-4 mb-4">
+                <h2>Titulo 2</h2>
+                <ul>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h2>Titulo 2</h2>
+                <ul>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h2>Titulo 2</h2>
+                <ul>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                    <li>Coso 1</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+        <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous">
+    </script>
+    <script>
+    var nextButton = document.querySelector('.boton-siguiente');
+    var previousButton = document.querySelector('.boton-anterior');
+
+    nextButton.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        // Get form sections
+        var sections = Array.from(document.querySelectorAll('.form-section'));
+
+        // Find the current section
+        var currentSection = sections.find(function (section) {
+            return !section.classList.contains('hide');
+        });
+
+        // Hide the current section
+        currentSection.classList.add('hide');
+
+        // Show the next section
+        var currentIndex = sections.indexOf(currentSection);
+        var nextSection = sections[currentIndex + 1];
+        if (nextSection) {
+            nextSection.classList.remove('hide');
+        }
+    });
+
+    previousButton.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        // Get form sections
+        var sections = Array.from(document.querySelectorAll('.form-section'));
+
+        // Find the current section
+        var currentSection = sections.find(function (section) {
+            return !section.classList.contains('hide');
+        });
+
+        // Hide the current section
+        currentSection.classList.add('hide');
+
+        // Show the previous section
+        var currentIndex = sections.indexOf(currentSection);
+        var previousSection = sections[currentIndex - 1];
+        if (previousSection) {
+            previousSection.classList.remove('hide');
+        }
+    });
+
+
+    </script>
+    </body>
+
+</html>
